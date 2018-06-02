@@ -1,9 +1,9 @@
-package com.cghs.core.service.impl;
+package com.cghs.core.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cghs.core.repository.UserPropertyRepository;
+import com.cghs.jpa.repository.UserPropertyRepository;
 
 @Service
 public class UserAssetService {

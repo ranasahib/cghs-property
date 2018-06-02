@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.cghs.core.service.impl.PropertyService;
-import com.cghs.jpa.repository.entity.Property;
+import com.cghs.core.service.PropertyService;
+import com.cghs.jpa.entity.Property;
 
 @RestController
 @RequestMapping("/cghs/property/api/v1")

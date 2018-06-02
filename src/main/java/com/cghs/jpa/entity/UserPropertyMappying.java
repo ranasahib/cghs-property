@@ -1,4 +1,4 @@
-package com.cghs.jpa.repository.entity;
+package com.cghs.jpa.entity;
 
 import java.io.Serializable;
 import java.util.Date;

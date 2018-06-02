@@ -1,10 +1,10 @@
-package com.cghs.core.repository;
+package com.cghs.jpa.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.cghs.jpa.repository.entity.Property;
+import com.cghs.jpa.entity.Property;
 
 public interface PropertyRepository extends JpaRepository<Property, Long>{
 

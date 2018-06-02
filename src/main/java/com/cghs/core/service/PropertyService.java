@@ -1,4 +1,4 @@
-package com.cghs.core.service.impl;
+package com.cghs.core.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,9 +6,9 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cghs.core.repository.PropertyRepository;
-import com.cghs.jpa.repository.entity.Asset;
-import com.cghs.jpa.repository.entity.Property;
+import com.cghs.jpa.entity.Asset;
+import com.cghs.jpa.entity.Property;
+import com.cghs.jpa.repository.PropertyRepository;
 
 @Service
 public class PropertyService{
